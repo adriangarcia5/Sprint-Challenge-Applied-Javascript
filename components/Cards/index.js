@@ -43,7 +43,15 @@ axios.get('https://lambda-times-backend.herokuapp.com/articles')
                 cardHeadline.textContent = currentArticle.headline 
                 cardImg.src = currentArticle.authorPhoto
                 cardName.textContent = currentArticle.authorName
-                
+
+                //appending children
+                card.append(cardHeadline)
+                card.appendChild(cardAuthor)
+                cardAuthor.appendChild(imgContainer)
+                cardAuthor.appendChild(cardName)
+                imgContainer.appendChild(cardImg)
+
+                articlesContainer.appendChild(card)
             })
         })
 })
