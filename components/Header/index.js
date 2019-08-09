@@ -27,5 +27,12 @@ function header() {
     headerDate.textContent = 'SMARCH 28, 2019'
     headerTitle.textContent = 'Lambda Times'
     temperature.textContent = '98°'
+
+    //append children
+    header.appendChild(headerDate)
+    header.appendChild(headerTitle)
+    header.appendChild(temperature)
+
+    return header
 }
 
