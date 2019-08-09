@@ -19,3 +19,6 @@ axios.get('https://lambda-times-backend.herokuapp.com/topics')
         tabs.appendChild(tab)
     })
 })
+.catch(function(data) {
+    alert(`error: ${data}`)
+})
