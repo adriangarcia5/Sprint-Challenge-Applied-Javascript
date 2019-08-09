@@ -1,0 +1,14 @@
+What is the DOM?
+An object representation of the html elements of a webpage
+
+What is an event?
+The way we users interact with the page
+
+What is an event listener?
+An event listener is a callback that you put on an elememt and when the event is triggered on that element, the callback is run.
+
+Why would we convert a NodeList into an Array?
+NodeList and arrays are similar, but Arrays offer methods like "forEach" that NodeList can't.
+
+What is a component?
+Reusable pieces of code that can be used to build elements sharing functionality and styling
