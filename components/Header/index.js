@@ -18,5 +18,14 @@ function header() {
     const headerDate = document.createElement('span')
     const headerTitle = doument.createElement('h1')
     const temperature = document.createElement('span')
+
+    //created the classes/style
+    header.classList.add('header')
+    headerDate.classList.add('date')
+    temperature.classList.add('temp')
+
+    headerDate.textContent = 'SMARCH 28, 2019'
+    headerTitle.textContent = 'Lambda Times'
+    temperature.textContent = '98°'
 }
 
