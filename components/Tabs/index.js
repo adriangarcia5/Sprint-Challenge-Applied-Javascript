@@ -15,7 +15,7 @@ axios.get('https://lambda-times-backend.herokuapp.com/topics')
     topics.forEach(function(topic) {
         const tab = document.createElement('div')
         tab.classList.add('tab')
-        tab.textConten = topic
+        tab.textContent = topic
         tabs.appendChild(tab)
     })
 })
