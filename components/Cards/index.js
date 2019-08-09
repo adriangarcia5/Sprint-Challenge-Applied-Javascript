@@ -25,6 +25,15 @@ axios.get('https://lambda-times-backend.herokuapp.com/articles')
         Object.keys(articles).forEach(function(article) {
             const allArticles = articles[article]
             allArticles.forEach(function(currentArticle) {
-                
+
+                //creating elements
+                const card = document.createElement('div')
+                const cardHeadline = document.createElement('div')
+                const cardAuthor = document.createElement('div')
+                const imgContainer = document.createElement('div')
+                const cardImg = document.createElement('img')
+                const cardName = document.createElement('span')
+
             })
         })
+})
