@@ -34,6 +34,16 @@ axios.get('https://lambda-times-backend.herokuapp.com/articles')
                 const cardImg = document.createElement('img')
                 const cardName = document.createElement('span')
 
+                // creating classes/style
+                card.classList.add('card')
+                cardHeadline.classList.add('headline')
+                cardAuthor.classList.add('author')
+                imgContainer.classList.add('img-container')
+
+                cardHeadline.textContent = currentArticle.headline 
+                cardImg.src = currentArticle.authorPhoto
+                cardName.textContent = currentArticle.authorName
+                
             })
         })
 })
